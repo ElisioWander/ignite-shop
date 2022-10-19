@@ -1,4 +1,4 @@
-import { styled } from "@stitches/react";
+import { styled } from '@stitches/react'
 
 export const HomeContainer = styled('main', {
   width: '100%',
@@ -6,7 +6,6 @@ export const HomeContainer = styled('main', {
   minHeight: 656,
 
   display: 'flex',
-  gap: '3rem',
 
   marginLeft: 'auto',
 })
@@ -15,18 +14,16 @@ export const Product = styled('a', {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  
-  padding: '0.25rem',
+
   borderRadius: 8,
   cursor: 'pointer',
-  overflow: "hidden",
-
+  overflow: 'hidden',
 
   position: 'relative',
   background: 'linear-gradient(180deg, #1ea483 0%, #7465d4 100%)',
 
   img: {
-    objectFit: 'cover'
+    objectFit: 'cover',
   },
 
   footer: {
@@ -49,20 +46,20 @@ export const Product = styled('a', {
     transition: 'all 0.2s ease-in-out',
 
     strong: {
-      fontSize: '$lg'
+      fontSize: '$lg',
     },
 
     span: {
       fontSize: '$1xl',
       fontWeight: 'bold',
-      color: '$green300'
-    }
+      color: '$green300',
+    },
   },
 
   '&:hover': {
     footer: {
       transform: 'translateY(0%)',
-      opacity: 1
-    }
-  }
+      opacity: 1,
+    },
+  },
 })

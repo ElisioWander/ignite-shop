@@ -6,7 +6,6 @@ import { Logo } from '../Components/Logo'
 globalStyles()
 
 export default function App({ Component, pageProps }: AppProps) {
-
   return (
     <Container>
       <Header>
